@@ -11,7 +11,7 @@ version of Alpine Linux.
 <br />
 Here is an example diagram of the expected result:
 <p align="center">
-  <img src="/screenshots/screen_1.png" width="80%" />
+  <img src="/screenshots/diagram.png" width="50%" />
 </p>
 
 ## Screenshots
@@ -19,7 +19,7 @@ Here is an example diagram of the expected result:
   <img src="/screenshots/postlist.png" width="50%" />
 </p>
 <p align="center">
-  <img src="/screenshots/chashu.png" width="50%" />
+  <img src="/screenshots/chashudon.png" width="50%" />
 </p>
 <p align="center">
   <img src="/screenshots/ramen.png" width="50%" />
