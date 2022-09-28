@@ -1,0 +1,48 @@
+<?php
+
+define('WP_CACHE', true);
+
+/** Database **/
+define( 'DB_NAME', getenv('MARIADB_DB') );
+
+/** Database MySQL username */
+define( 'DB_USER', getenv('MARIADB_USER') );
+
+/** MySQL database password */
+define( 'DB_PASSWORD', getenv('MARIADB_PWD') );
+
+/** MySQL hostname */
+define( 'DB_HOST', getenv('MARIADB_HOST'));
+
+/** Database charset to use in creating database tables. */
+define( 'DB_CHARSET', 'utf8' );
+
+/** The database collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', '' );
+
+/* Security keys and salts */
+define('AUTH_KEY',         'F]me24a0m~gx)x!qz{Z&v{hSp}.T|r^Om#{j.|y@3:K)bp-5b%P`V@&@yx2-IjAc');
+define('SECURE_AUTH_KEY',  'NmRMazFB}X69]}6V0~}_8gGWGsPT5MQ4Y/3_HeD5Q|1S~nHIc#$oLq;]j)e5]k^}');
+define('LOGGED_IN_KEY',    '+@@lf~Rkj3>ne_q}!R|W.>@Y]NI6u]qE&a8N.!b{Ppk:7Er25u3*:6io8w3|BmZ(');
+define('NONCE_KEY',        'Yq`,+]bpkKx%x.|~ F;*eN=xlL}zm9<9t_+V[+d]4:|6[K|F%D./Ac>+sqenpaFM');
+define('AUTH_SALT',        '25&j/>0Z)MjAX@f~D>ao;yisPNzWOwZ9a#m3gOJqiSmy+8ku<xhjN[Oj?l5 8:Tp');
+define('SECURE_AUTH_SALT', 'P+G5<wFY7TnU6#Wv0S+1T+@V$+$J=A(6%&-p[=8g:W[LSr1}o[J-T57]AKR us=|');
+define('LOGGED_IN_SALT',   'M{t+*p~6&^(@I0g9?^F4%mE-]atxy;5 u}!*l;n3R47px0A4AsFqM1Ql?`qQ!zRt');
+define('NONCE_SALT',       'ws(A+Yw$yPu{!rlr&&7/^ma}+qkNmppYKsRm<A;S@0yHj81QgT9g4&~Ok[q(nGlL');
+
+/**
+ * WordPress Database Table prefix.
+ *
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
+ */
+$table_prefix = 'wp_';
+
+define( 'WP_DEBUG', false);
+
+# To display index.php
+if ( ! defined( 'ABSPATH' ) ) {
+        define( 'ABSPATH', __DIR__ . '/' );
+}
+
+require_once ABSPATH . 'wp-settings.php';
