@@ -17,10 +17,10 @@ Here is an example diagram of the expected result:
 
 ## Screenshots
 <p align="left">
-  <img src="/screenshots/postlist.png" width="50%" />
+  <img src="/screenshots/postlist.png" width="40%" />
 </p>
 <p align="right">
-  <img src="/screenshots/chashudon.png" width="50%" />
+  <img src="/screenshots/chashudon.png" width="40%" />
 </p>
 <p align="center">
   <img src="/screenshots/ramen.png" width="50%" />
