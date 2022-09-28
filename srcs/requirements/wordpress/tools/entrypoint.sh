@@ -12,14 +12,14 @@ function generate_posts()
 {
 	wp post create --post_status=publish --post_category=Japanese --post_title="Shoyu Ramen #1" \
 		--post_content="[gallery ids='$(wp media import /tmp/img/r1.jpg --porcelain)' size='full'] \
-		<p align='center'>Ramen soupe à base de sauce soja et de graisse de canard avec chashu, œufs marinés, menma, \
+		<p align='center'>Ramen soupe à base de sauce soja et de graisse de canard avec chashu, œuf mariné ajitama, menma, \
 		feuille d'algue, poireau, pousses de soja et ciboulette</p>"
 	wp post create --post_status=publish --post_category=Italian --post_title="Tagliatelles à la truffe" \
 	--post_content="[gallery ids='$(wp media import /tmp/img/p1.jpg --porcelain)' size='full'] \
 		<p align='center'>Tagliatelles au parmesan et à la truffe de saison</p>"
 	wp post create --post_status=publish --post_category=Japanese --post_title="Kamo Ramen" \
 	--post_content="[gallery ids='$(wp media import /tmp/img/r2.jpg --porcelain)' size='full'] \
-		<p align='center'>Ramen soupe à base de sauce soja et de graisse de canard avec magret de canard, œufs marinés, \
+		<p align='center'>Ramen soupe à base de sauce soja et de graisse de canard avec magret de canard, œuf mariné ajitama, \
 		menma, feuille d'algue, beurre, poireau, pousses de soja et ciboulette</p>"
 	wp post create --post_status=publish --post_category=Italian --post_title="Tagliatelles au pesto et jambon de parme" \
 		--post_content="[gallery ids='$(wp media import /tmp/img/p2.jpg --porcelain)' size='full'] \
@@ -29,7 +29,7 @@ function generate_posts()
 		<p align='center'>Glace parfum vanille enveloppée de truffe râpée de saison</p>"
 	wp post create --post_status=publish --post_category=Japanese --post_title="Shoyu Ramen #2" \
 		--post_content="[gallery ids='$(wp media import /tmp/img/r3.jpg --porcelain)' size='full'] \
-		<p align='center'>Ramen soupe à base de sauce soja et de graisse de canard avec chashu, œufs marinés, menma, \
+		<p align='center'>Ramen soupe à base de sauce soja et de graisse de canard avec chashu, œuf mariné ajitama, menma, \
 		feuille d'algue, beurre, poireau et ciboulette</p>"
 	wp post create --post_status=publish --post_category=Italian --post_title="Tagliatelles au pesto et aux crevettes" \
 		--post_content="[gallery ids='$(wp media import /tmp/img/p3.jpg --porcelain)' size='full'] \
