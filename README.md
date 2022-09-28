@@ -11,7 +11,7 @@ version of Alpine Linux.
 <br />
 Here is an example diagram of the expected result:
 <p align="center">
-  <img src="/screenshots/screen_1.png" width="50%" />
+  <img src="/screenshots/screen_1.png" width="80%" />
 </p>
 
 ## Screenshots
