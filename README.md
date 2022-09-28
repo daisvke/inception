@@ -17,12 +17,10 @@ Here is an example diagram of the expected result:
 
 ## Screenshots
 <p>
-  <img align="left" src="/screenshots/postlist.png" width="40%" />
-  <img align="right" src="/screenshots/chashudon.png" width="40%" />
+  <img align="left" src="/screenshots/postlist.png" width="50%" />
+  <img align="right" src="/screenshots/chashudon.png" width="50%" />
 </p>
-<p align="center">
-  <img src="/screenshots/ramen.png" width="50%" />
-</p>
-<p align="center">
-  <img src="/screenshots/tagliatelles.png" width="50%" />
+<p >
+  <img align="left" src="/screenshots/ramen.png" width="50%" />
+  <img align="right" src="/screenshots/tagliatelles.png" width="50%" />
 </p>
