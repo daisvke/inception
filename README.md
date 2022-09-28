@@ -1,6 +1,6 @@
 # inception
 This project consists in setting up a small infrastructure composed of different
-services under specific rules, hosting a wordpress blog.
+services under specific rules, hosting a personal wordpress cooking blog.
 
 ## Description
 * Each Docker image must have the same name as its corresponding service.
