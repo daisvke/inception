@@ -8,17 +8,18 @@ services under specific rules, hosting a wordpress blog.
 * For performance matters, the containers are built from the penultimate stable
 version of Alpine Linux.
 * There must be Dockerfiles, one per service. The Dockerfiles must be called in the docker-compose.yml by the Makefile.
-<br />
+
 Here is an example diagram of the expected result:
+<br />
 <p align="center">
   <img src="/screenshots/diagram.png" width="50%" />
 </p>
 
 ## Screenshots
-<p align="center">
+<p align="left">
   <img src="/screenshots/postlist.png" width="50%" />
 </p>
-<p align="center">
+<p align="right">
   <img src="/screenshots/chashudon.png" width="50%" />
 </p>
 <p align="center">
