@@ -17,8 +17,8 @@ Here is an example diagram of the expected result:
 
 ## Screenshots
 <p align="center">
-  <img align="left" src="/screenshots/postlist.png" width="45%" />
-  <img align="right" src="/screenshots/chashudon.png" width="45%" />
-  <img align="left" src="/screenshots/ramen.png" width="20%" />
-  <img align="right" src="/screenshots/tagliatelles.png" width="40%" />
+  <img src="/screenshots/postlist.png" width="45%" />
+  <img src="/screenshots/chashudon.png" width="45%" />
+  <img src="/screenshots/ramen.png" width="20%" />
+  <img src="/screenshots/tagliatelles.png" width="40%" />
 </p>
