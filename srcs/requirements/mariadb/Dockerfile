@@ -14,6 +14,7 @@ COPY 	./conf/mariadb-server.cnf /etc/my.cnf.d/
 
 # Mount database
 RUN		mariadb-install-db --datadir=/var/lib/mysql \
+		--auth-root-authentication-method=normal \
 		&& chown -R mysql:mysql /var/lib/mysql \
 		&& chown -R mysql:mysql /run/mysqld
 
