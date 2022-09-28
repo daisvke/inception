@@ -15,6 +15,19 @@ Here is an example diagram of the expected result:
   <img src="/screenshots/diagram.png" width="50%" />
 </p>
 
+## Commands
+Run:
+```
+sudo make
+```
+Get inside a container and launch a command:
+```
+sudo docker exec -it [container] [command]
+
+ex: to get into the mariadb database:
+sudo docker exec -it mariadb mariadb -uroot -proot
+```
+
 ## Screenshots
 <p align="center">
   <img src="/screenshots/postlist.png" width="45%" />
