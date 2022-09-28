@@ -16,11 +16,9 @@ Here is an example diagram of the expected result:
 </p>
 
 ## Screenshots
-<p align="left">
-  <img src="/screenshots/postlist.png" width="40%" />
-</p>
-<p align="right">
-  <img src="/screenshots/chashudon.png" width="40%" />
+<p>
+  <img align="left" src="/screenshots/postlist.png" width="40%" />
+  <img align="right" src="/screenshots/chashudon.png" width="40%" />
 </p>
 <p align="center">
   <img src="/screenshots/ramen.png" width="50%" />
