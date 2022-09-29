@@ -32,6 +32,7 @@ sudo docker exec -it mariadb mariadb -uroot -proot
 <p align="center">
   <img src="/screenshots/home.png" width="45%" />
   <img src="/screenshots/nigiri.png" width="45%" />
+  <img src="/screenshots/ice.png" width="45%" />
   <img src="/screenshots/chashudon.png" width="45%" />
   <img src="/screenshots/ramen.png" width="45%" />
   <img src="/screenshots/tagliatelles.png" width="45%" />
