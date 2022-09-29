@@ -1,5 +1,5 @@
 # inception
-img src="/screenshots/nigiri.png" width="15%" />
+<img src="/screenshots/nigiri.png" width="15%" />
 This project consists in setting up a small infrastructure composed of different
 services under specific rules, hosting a personal wordpress cooking blog.
 
