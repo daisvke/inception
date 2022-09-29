@@ -23,7 +23,8 @@ function generate_posts()
 		menma, feuille d'algue, beurre, poireau, pousses de soja et ciboulette</p>"
 	wp post create --post_status=publish --post_category=Italian --post_title="Tagliatelles au pesto et jambon de parme" \
 		--post_content="[gallery ids='$(wp media import /tmp/img/p2.jpg --porcelain)' size='full'] \
-		<p align='center'>Tagliatelles à la sauce pesto, avec truffe de saison, jambon de parme 36 mois AOP, pigons de pin, tomates cerise et feuilles de basilic"
+		<p align='center'>Tagliatelles à la sauce pesto, avec truffe de saison, jambon de parme 36 mois AOP, pigons de pin, \
+		tomates cerise et feuilles de basilic"
 	wp post create --post_status=publish --post_category=Japanese --post_title="Glace vanille à la truffe</p>" \
 	--post_content="[gallery ids='$(wp media import /tmp/img/ice.jpg --porcelain)' size='full'] \
 		<p align='center'>Glace parfum vanille enveloppée de truffe râpée de saison</p>"
@@ -37,6 +38,14 @@ function generate_posts()
 	wp post create --post_status=publish --post_category=Japanese --post_title="Chashu Don" \
 		--post_content="[gallery ids='$(wp media import /tmp/img/chashu.jpg --porcelain)' size='full'] \
 		<p align='center'>Chashu Don à la sauce spéciale du chef</p>"
+	wp post create --post_status=publish --post_category=Japanese --post_title="Chirashi au thon jaune et groseilles" \
+		--post_content="[gallery ids='$(wp media import /tmp/img/chirashi.jpg --porcelain)' size='full'] \
+		<p align='center'>Chirashi au thon albacore et aux groseilles avec mayonnaise au mentaiko, sauce soja à la truffe, \
+		riz au vinaigre de vin rouge, oignon rouge, et ciboulette</p>"
+	wp post create --post_status=publish --post_category=Japanese --post_title="Nigirizushi au thon jaune et groseilles" \
+		--post_content="[gallery ids='$(wp media import /tmp/img/nigiri.jpg --porcelain)' size='full'] \
+		<p align='center'>Nigirizushi au thon albacore et aux groseilles, riz au vinaigre de vin rouge, feuilles d'or, \
+		et sauce soja à la truffe</p>"
 }
 
 if [ ! -f "wp-config.php" ]; then
@@ -46,7 +55,6 @@ if [ ! -f "wp-config.php" ]; then
 	# Configure wordpress website
 	wp core install --url="$WP_URL" --title="$WP_TITLE" --admin_user="$WP_ADMIN_USER" \
     	--admin_password="$WP_ADMIN_PWD" --admin_email="$WP_ADMIN_EMAIL" --skip-email
-	# Activate redis and use it as a cache
 	wp plugin update --all
 	# Install theme
 	wp theme install twentytwentytwo --activate
