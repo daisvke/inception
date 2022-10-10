@@ -30,8 +30,6 @@ services:
       - .env
     ports:
       - 443:443
-    links:
-      - wordpress
     restart: unless-stopped
 
   mariadb:
@@ -62,6 +60,4 @@ services:
       - inception
     env_file:
       - .env
-    links:
-      - mariadb
     restart: unless-stopped
