@@ -1,4 +1,4 @@
-COMPOSE						= cd srcs/ && sudo docker-compose
+COMPOSE						= cd srcs/ && sudo docker compose
 DATA_PATH					= /home/dtanigaw/data
 MARIADB_HOST_VOLUME_PATH	= /home/dtanigaw/data/database
 WP_HOST_VOLUME_PATH			= /home/dtanigaw/data/wordpress
